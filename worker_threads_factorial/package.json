@@ -1,0 +1,16 @@
+{
+  "name": "worker_threads_factorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --experimental-worker index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evolk <zz106a@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "6.0.0",
+    "ora": "3.0.0"
+  }
+}
