@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_stuff",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha -R spec --recursive tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z106a/nodejs_stuff.git"
+  },
+  "author": "evolk <zz106a@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z106a/nodejs_stuff/issues"
+  },
+  "homepage": "https://github.com/z106a/nodejs_stuff#readme",
+  "dependencies": {
+    "mocha": "5.2.0"
+  }
+}

@@ -1,0 +1,3 @@
+addition is O(1)
+Removal O(1), O(n)
+Search is O(1);

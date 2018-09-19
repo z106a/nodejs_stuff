@@ -1,3 +1,7 @@
+/// palindrome('abbba') === true
+/// palindrome('abcdfe') === false
+
+
 function palindrome1(str) {
   const reversed = str.split('').reverse().join('');
   return reversed === str;

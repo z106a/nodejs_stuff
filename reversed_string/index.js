@@ -2,7 +2,6 @@
 const log = console.log.bind(this);
 
 function reverse1(str) {
-  debugger;
   return str.split('').reverse().join('');
 }
 
