@@ -15,7 +15,11 @@
     "url": "https://github.com/z106a/nodejs_stuff/issues"
   },
   "homepage": "https://github.com/z106a/nodejs_stuff#readme",
-  "dependencies": {
-    "mocha": "5.2.0"
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
   }
 }
