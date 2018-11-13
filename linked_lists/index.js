@@ -77,8 +77,8 @@ class LinkedList {
     }
   }
   removeAt(idx) {
-    if (!this.head ) { return null; }
-    if (idx === 0 ) {
+    if (!this.head) { return null; }
+    if (idx === 0) {
       this.head = this.head.next;
       return;
     }
@@ -88,10 +88,12 @@ class LinkedList {
   }
   insertAt(data, idx) {
     if (!this.head) {
-      return this.head = new Node(data);
+      this.head = new Node(data);
+      return;
     }
     if (idx === 0) {
-      return this.head = new Node(data, this.head);
+      this.head = new Node(data, this.head);
+      return;
     }
     const prev = this.getAt(idx - 1) || this.getLast();
     const node = new Node(data, prev.next);
@@ -101,8 +103,8 @@ class LinkedList {
 }
 
 const list = new LinkedList();
-const nodeOne = new Node(5)
+const nodeOne = new Node(5);
 list.head = nodeOne;
 list.insertFirst(15);
 console.log(list.getAt(3));
-module.exports = {Node, LinkedList}
+module.exports = { Node, LinkedList };
